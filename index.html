@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla&family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+
+<div class="login">
+
+    <h2>Añadí tu super! </h2>
+    <p>Agregá tu personaje favorito completando las opciones.</p>
+    <br>
+
+    <form action="#">
+
+<article> 
+    <section class="one">
+        <div>  <label for="name">Nombre</label><br><br>
+        <input type="text" name="name" placeholder="Camilla Morales">
+        </div>
+
+        <div><label for="name">Fecha</label><br><br>
+        <input type="date" name="fecha" id="date" min="2023/09/03"  max="2026/12/31"> 
+
+        </div>
+    
+    <div>
+    <textarea name="Descripcion" id="description" cols="30" rows="10">Descripcion</textarea>
+    </div>
+    
+  </section>
+
+    
+    <section class="two"> 
+        
+        <div>
+            <label for="especie">Especie</label><br><br>
+            <select class="sel" name="especie" id="especie">Especie
+            <optgroup >
+                <option value="especie">especie</option>
+                <option value="especie">especie</option>
+            </optgroup></select>
+        </div>
+        
+        <div class="fill">
+            
+            <label for="photo">Agregar foto</label><br><br>
+             <input id="file" type="file" name="Selecciona el archivo" accept=".pdf .jpg .png"  > 
+        </div>
+            
+        <div class="check">
+
+            <p> Poderes </p><br>
+             
+             <input type="checkbox" name="archivo"  > 
+             <label for="Powers">Volar</label><br>
+             <input type="checkbox" name="archivo"  > 
+             <label for="Powers">Superinteligencia</label><br>
+             <input type="checkbox" name="archivo"  > 
+             <label for="Powers">Vista de rayo laser </label><br>
+             <input type="checkbox" name="archivo"  >
+              <label for="Powers">Billetera gorda</label><br>
+        </div>
+            <hr>
+            <div class="radio">
+
+                <p> Tipo de Personaje</p><br>
+
+                <input type="radio" name="archivo"  > 
+                <label for="Type of Character">Heroe-Heroina</label><br>
+                <input type="radio" name="archivo"  > 
+                <label for="Type of Character"> Villano-Villana</label><br>
+
+            </div>
+
+            
+    
+    </section>
+</article>
+</div></form>
+
+<input type="submit" value="Añadir" class="boton"> 
+
+    </main>
+
+    
+</body>
+</html>

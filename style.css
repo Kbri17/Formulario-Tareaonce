@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto"
+}
+main {
+
+    background-color: #00669F;
+    width: 55vw;
+    height: 90vh;
+    margin-top: 50px;
+    border-radius: 40px;
+    color: #FBFFFD;
+    
+}
+
+h2 , p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+p{
+    margin-top: 0%;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    
+}
+
+article section.one {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+article section.one input {
+
+    box-sizing: border-box;
+    height: 43px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 7px;
+}
+
+ article section.one textarea {
+    height: 230px;
+    border-radius: 10px;
+    padding: 11px;
+    width: 100%;
+    color: rgb(105, 102, 107);
+    font-family: "roboto";
+    letter-spacing: 0,7px;
+    font-size:16px ;
+    box-sizing: border-box;
+}
+
+
+article section div {
+    
+    margin-bottom:20px ;
+}
+
+
+article section {
+    width:35% ;
+    margin-left: 20px;
+}
+
+
+article section.two div:first-child select {
+    
+    box-sizing: border-box;
+    height: 43px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 7px;
+}
+
+article section.two div.fill input {
+height: 2.7rem;
+border-radius: 12px;
+
+
+}
+
+article section.two div.check p {
+margin: 0%;
+display: inline-block;
+}
+article section.two div.check input {
+    margin: 0%;
+    
+}
+
+
+article section.two div.radio p {
+    display: inline-block;
+    margin: 0%;
+    }
+    article section.two div.radio input {
+        margin: 0%;
+    }
+
+input.boton {
+    margin-top:20px ;
+    background-color: #1CD1B0;
+    color: black;
+    font-weight: bolder;
+    margin-left: 33%;
+    height: 60px;
+    border-radius: 10px;
+    width: 35%;
+    font-size:40px ;
+
+}
+
+input.boton:hover {
+    color: white;
+    background-color:  #001D2D;
+    ;
+}
+
+
+
+
+
